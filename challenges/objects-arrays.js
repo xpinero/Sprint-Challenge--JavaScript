@@ -5,11 +5,29 @@
   Use this pattern to create your objects: 
   object name, diet, weight, length, period
 */
-
+const tyrannosaurus = {
+  name: "tyrannosaurus",
+  diet: "carnivorous",
+  weight: "7000kg",
+  length: "12m",
+  period: "Late Cretaceous"
+};
 // tyrannosaurus, carnivorous, 7000kg, 12m, Late Cretaceous
-
+const stegosaurus = {
+  name: "stegosaurus",
+  diet: "carnivorous",
+  weight: "2000kg",
+  length: "9m",
+  period: "Late Jurassic"
+};
 // stegosaurus, herbivorous, 2000kg, 9m, Late Jurassic
-
+const velociraptor = {
+  name: "velociraptor",
+  diet: "carnivorous",
+  weight: "15kg",
+  length: "1.8m",
+  period: "Late Cretaceous"
+};
 // velociraptor, carnivorous, 15kg, 1.8m, Late Cretaceous
 
 // Using your dinosaur objects, log answers to these questions:
