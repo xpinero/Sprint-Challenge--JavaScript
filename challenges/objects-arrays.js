@@ -10,7 +10,10 @@ const tyrannosaurus = {
   diet: "carnivorous",
   weight: "7000kg",
   length: "12m",
-  period: "Late Cretaceous"
+  period: "Late Cretaceous",
+  roar: function(){
+    return `RAWERSRARARWERSARARARRRR`;
+  }
 };
 // tyrannosaurus, carnivorous, 7000kg, 12m, Late Cretaceous
 const stegosaurus = {
@@ -45,8 +48,8 @@ console.log(stegosaurus.length);
 console.log(tyrannosaurus.period);
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-tyrannosaurus.roar = () => `RAWERSRARARWERSARARARRRR!`;
-console.log(tyrannosaurus.roar);
+//tyrannosaurus.roar = () => `RAWERSRARARWERSARARARRRR!`;
+console.log(tyrannosaurus.roar());
 
 // ==== Arrays ====
 
